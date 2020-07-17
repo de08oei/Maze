@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+/* index css */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+/* NAV BAR */
+ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.levelDropDown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* TITLE */
+
+h1 {
+  font-style: italic;
+  color: fuchsia;
+  font-size: 100px;
+}
+
+
+.gameTitle {
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+/* START BUTTON */
+h2 a {
+  display: block;
+  color: green;
+  text-align: center;
+}
+
+h2 a:hover:not(.active) {
+  background-color: purple;
+  padding: 0px;
+}
